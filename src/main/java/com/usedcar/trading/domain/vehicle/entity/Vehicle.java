@@ -29,7 +29,7 @@ public class Vehicle extends BaseEntity {
     private String model;
 
     @Column(nullable = false)
-    private int year;
+    private int modelYear;
 
     @Column(nullable = false)
     private int mileage;
